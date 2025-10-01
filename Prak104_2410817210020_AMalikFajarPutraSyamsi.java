@@ -36,9 +36,7 @@ public class Prak104_2410817210020_AMalikFajarPutraSyamsi {
 					(pilAbu.equals("K") && pilBagas.equals("B"))) {
 				scoreAbu++;
 			}
-			else if((pilBagas.equals("B") && pilAbu.equals("G")) ||
-					(pilBagas.equals("G") && pilAbu.equals("K")) ||
-					(pilBagas.equals("K") && pilAbu.equals("B"))) {
+			else {
 				scoreBagas++;
 			}
 		}
