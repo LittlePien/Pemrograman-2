@@ -17,8 +17,8 @@ public class Soal1Main {
 		
 		buah1.info();
 		System.out.printf("Harga Sebelum Diskon: Rp%.2f\n", buah1.getBeforeDiskon());
-		System.out.printf("Harga Sebelum Diskon: Rp%.2f\n", buah1.getTotalDiskon());
-		System.out.printf("Harga Sebelum Diskon: Rp%.2f\n", buah1.getAfterDiskon());
+		System.out.printf("Total Diskon: Rp%.2f\n", buah1.getTotalDiskon());
+		System.out.printf("Harga Setelah Diskon: Rp%.2f\n", buah1.getAfterDiskon());
 		System.out.println();
 		
 		buah2.nama = "Mangga";
@@ -28,8 +28,8 @@ public class Soal1Main {
 		
 		buah2.info();
 		System.out.printf("Harga Sebelum Diskon: Rp%.2f\n", buah2.getBeforeDiskon());
-		System.out.printf("Harga Sebelum Diskon: Rp%.2f\n", buah2.getTotalDiskon());
-		System.out.printf("Harga Sebelum Diskon: Rp%.2f\n", buah2.getAfterDiskon());
+		System.out.printf("Total Diskon: Rp%.2f\n", buah2.getTotalDiskon());
+		System.out.printf("Harga Setelah Diskon: Rp%.2f\n", buah2.getAfterDiskon());
 		System.out.println();
 		
 		buah3.nama = "Alpukat";
@@ -39,8 +39,8 @@ public class Soal1Main {
 		
 		buah3.info();
 		System.out.printf("Harga Sebelum Diskon: Rp%.2f\n", buah3.getBeforeDiskon());
-		System.out.printf("Harga Sebelum Diskon: Rp%.2f\n", buah3.getTotalDiskon());
-		System.out.printf("Harga Sebelum Diskon: Rp%.2f\n", buah3.getAfterDiskon());
+		System.out.printf("Total Diskon: Rp%.2f\n", buah3.getTotalDiskon());
+		System.out.printf("Harga Setelah Diskon: Rp%.2f\n", buah3.getAfterDiskon());
 		System.out.println();
 	}
 
