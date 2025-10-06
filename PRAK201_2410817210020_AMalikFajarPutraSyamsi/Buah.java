@@ -15,18 +15,15 @@ public class Buah {
 	
 	public double getBeforeDiskon() {
 		double totalHarga = harga * (jumlah / berat);
-		double result = totalHarga;
 		
-		return result;
+		return totalHarga;
 		
 	}
 	
 	public double getTotalDiskon() {
 		double perKelipatanDiskon = 0.02 * 4 * this.harga;
 		double jumlahKelipatanDiskon = Math.floor(this.jumlah/4);
-		double totalDiskon = jumlahKelipatanDiskon * perKelipatanDiskon;
-		
-		return totalDiskon;
+		return jumlahKelipatanDiskon * perKelipatanDiskon;
 	}
 	
 	public double getAfterDiskon() {
